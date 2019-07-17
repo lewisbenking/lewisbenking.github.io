@@ -1,13 +1,13 @@
 var x = document.getElementById('changingText'),
     // dictionary of all the languages
-    arr = ['Software Developer',  'First Class Graduate', 'Aston University Alumni', 'Musician'],
+    wordsArray = ['Software Developer',  'First Class Graduate', 'Aston University Alumni', 'Musician'],
     // hold the spot in the dictionary
     i = 1;  
 
 setInterval(function (){
-  // change the text using the dictionary
+  // change the text using the dictionary every 3500ms
   // i++ go to the next language
-  x.innerHTML = arr[i++];
+  x.innerHTML = wordsArray[i++];
   // start over if i === dictionary length
-  i = arr.length === i ? 0 : i;
+  i = wordsArray.length === i ? 0 : i;
 }, 3500);
