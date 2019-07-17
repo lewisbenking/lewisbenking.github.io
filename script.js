@@ -1,6 +1,6 @@
 var x = document.getElementById('changingText'),
     // dictionary of all the languages
-    arr = ['Software Developer.',  'First Class Graduate.', 'Aston University Alumni.', 'Electric & Acoustic Guitarist.'],
+    arr = ['Software Developer',  'First Class Graduate', 'Aston University Alumni', 'Musician'],
     // hold the spot in the dictionary
     i = 1;  
 
