@@ -3,82 +3,82 @@ p, li, .description{
  line-height: 1.8rem;
 }
 .sidebar-collapse .navbar-collapse{
-    background: #000;
+  background: #000;
 }
 .sidebar-collapse .navbar-collapse::before{
-    background: linear-gradient(#b2a37d,#131313 80%);
+  background: linear-gradient(#003da0,#3682ff 80%);
 }
 
 .bg-primary{
-    background: #b2a37d !important;
+  background: #3682ff !important;
 }
 .brand{
-    animation-name: fadeIn;
-    animation-duration: 1.1s;
+  animation-name: fadeIn;
+  animation-duration: 1.1s;
 }
 .brand .h1-seo{
-    font-size: 3.2rem;
-    margin-bottom: .5rem;
+  font-size: 3.2rem;
+  margin-bottom: .5rem;
 }
 
 .brand h3{
-    margin: 0;
+  margin: 0;
 }
 @keyframes fadeIn {
-    0%   {opacity: 0;}
-    25%  {opacity: .25;}
-    50%  {opacity: .50;}
-    100% {opacity: 1;}
+  0%   {opacity: 0;}
+  25%  {opacity: .25;}
+  50%  {opacity: .50;}
+  100% {opacity: 1;}
 }
 
 .paddingTop{
-    padding-top: 2rem;
+  padding-top: 2rem;
 }
 .navbar-white{
  background: #fff !important;
 }
 
 .black{
-    color: #000;
+  color: #000;
 }
 .gold, .gold-background, .category{
-    color: #b2a37d !important;
+  color: #3682ff !important;
 }
 
 h2 {
-    color: #b2a37d !important;
+  color: #3682ff !important;
 }
 
 .background-black{
-    background: #131313;
+  background: #131313;
 }
 
 .background-black:hover, .background-black:focus{
-    background: #b2a37d !important;
+  background: #3682ff !important;
 }
 
 .filter-color{
-    background: linear-gradient(0deg,rgba(44,44,44,.2),rgba(0,0,0,.8));
+  background: linear-gradient(#000103,#3682ff 80%);
 }
 
 .footer{
-    background: #131313;
-    color: #fff;
+  background: #131313;
+  color: #fff;
 }
 
 .thanks .wrapper{
-    height: 100vh;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 @media screen and (max-width: 500px){
-    .brand .h1-seo{
-        font-size: 2.2rem;
-    }
+  .brand .h1-seo{
+    font-size: 2.2rem;
+  }
 }
 
 .btn-block .a {
